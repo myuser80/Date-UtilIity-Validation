@@ -43,6 +43,10 @@ public class DateApiValidation {
 			System.out.println("Invalid Date: " + dateTimeCaptured);
 		}
 		
+		//Another way to use date validation, Can handle this way too
+		DateUtilsClass.isValidDateUsingRegEx(dateTimeCaptured);
+		
+		//findDayoftheWeek
 		System.out.println("Day of the week: " + DateUtilsClass.findDay(Integer.parseInt(dateInput[0]), Integer.parseInt(dateInput[1]), Integer.parseInt(dateInput[2])));
 		
 		try {
