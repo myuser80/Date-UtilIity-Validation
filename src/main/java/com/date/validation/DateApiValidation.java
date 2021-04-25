@@ -7,6 +7,7 @@ import com.date.validation.exception.TimeValidationCheck;
  
 import com.date.validation.utils.DateUtilsClass;
 
+
 /**
  *
  * @author Anurag
@@ -39,7 +40,6 @@ public class DateApiValidation {
 			System.out.println("Valid Date: " + dateTimeCaptured);
 		}
 		catch(DateValidationCheck dte) {
-			System.out.println("1111111");
 			System.out.println("Invalid Date: " + dateTimeCaptured);
 		}
 		
@@ -52,7 +52,6 @@ public class DateApiValidation {
 			e.printStackTrace();
 		}
 		 
-		
 		
 		//System.out.println("Is it leap year:" + DateUtils.isLeapYear(Integer.parseInt(dateInput[2])));
 		sc.close();
