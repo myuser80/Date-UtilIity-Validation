@@ -41,3 +41,45 @@ Test Cases
 ValidDateCheck by AM / PM / Day , Month  Year 
 Valid Time Check by HH MM SS AM /PM
 findaDayofWeek 
+DatetoWords
+
+Test Results
+=================
+
+Valid Date : one JAN two thousand and twenty one
+Valid Date : two FEB two thousand and twenty one
+Valid Date : three MAR two thousand and twenty one
+Valid Date : four APR two thousand and twenty one
+Valid Date : five MAY two thousand and twenty one
+Valid Date : six JUN two thousand and twenty one
+Valid Date : seven JUL two thousand and twenty one
+Valid Date : eight AUG two thousand and twenty one
+Valid Date : nine JAN two thousand and twenty one
+Valid Date : ten JAN two thousand and twenty one
+Valid Date : one JAN two thousand and twenty one
+Valid Date : one JAN two thousand and twenty one
+Valid Date : one JAN two thousand and twenty one
+Valid Date : one JAN two thousand and twenty one
+Valid Date : one JAN two thousand and twenty one
+Valid Date : one JAN two thousand and twenty one
+Valid time Six Hours Seven MinutesTen Seoncds Morning
+Valid time Zero Hours Seven MinutesTen Seoncds Morning
+Valid time Eleven Hours Seven MinutesTen Seoncds Morning
+Valid time One Hours Twenty nine MinutesTwenty three Seoncds Morning
+Invalid time23:57:59 Morning
+Valid time One Hours Seven MinutesTen Seoncds Morning
+Valid time Two Hours Seven MinutesTen Seoncds Morning
+Valid time Seventeen Hours Seven Minutes  Ten Seoncds Evening
+Valid time Fifteen Hours Twenty nine Minutes  Twenty three Seoncds Evening
+Invalid time23:57:59 Morning
+Valid time Sixteen Hours Seven Minutes  Ten Seoncds Evening
+Invalid time 01:07:10 Evening
+InValid time 25:07:10 Morning
+InValid time 17:67:10 Evening
+InValid time 15:29:110 Evening
+Invalid time21:09:59 Morning
+Invalid time16:07:10 Morning
+InValid time 25:07:10 Morning
+Valid time Twenty four Hours Seven Minutes  Ten Seoncds Morning
+twenty five JAN two thousand and twenty one
+
