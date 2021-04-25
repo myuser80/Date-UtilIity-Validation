@@ -12,7 +12,7 @@ Using OOAD,OOPS  concepts, write  a java program that  :
 7)      Print the  day of the week for given input without using java api. 
 8)      This program will not use Java Calendar,  LocalDatetime and Day of week api .It can use java util date api for date creation only.9)      Add junit test cases 
 For example  
-Input date time : 41-01-2021 06:07:10 AM  
+Input date time : 21-01-2021 06:07:10 AM  
 
 Output: 	
 Valid Date : 21st-Jan -Twenty Twenty One 
