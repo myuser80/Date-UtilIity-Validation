@@ -1,5 +1,8 @@
 package com.date.validation.utils;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import com.date.validation.exception.DateValidationCheck;
 import com.date.validation.exception.TimeValidationCheck;
 
@@ -47,12 +50,25 @@ public class DateUtilsClass {
 
 	}
 
+
+	// Returns true if d is in format
+	// dd-mm-yyyy
+	public static boolean isValidDateUsingRegEx(String d)
+	{
+		String regex=	"^([0]?[1-9]|[1|2][0-9]|[3][0|1])[./-]([0]?[1-9]|[1][0-2])[./-]([0-9]{4}|[0-9]{2})$";
+		Pattern pattern = Pattern.compile(regex);
+		Matcher matcher = pattern.matcher((CharSequence)d);
+		return matcher.matches();
+	}
+
+	
 	public static boolean isValidDateCheck(int d, int m, int y) throws DateValidationCheck {
-
+		
+		DateUtilsClassForWords dateObj =new DateUtilsClassForWords();
+		System.out.println("Valid Date : "+ dateObj.convert(d) + " " + dateObj.getMonth(m) 
+		+ " " + dateObj.convert(y));
 		// If year, month and day // are not in given range
-
 		if (y > MAX_VALID_YR || y < MIN_VALID_YR) {
-
 			//throw new DateValidationCheck("Invalid Date");
 			return false;
 		}
@@ -210,5 +226,7 @@ public class DateUtilsClass {
 			return true;
 		
 	}
+
+	
 }
 
